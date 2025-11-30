@@ -1,0 +1,8 @@
+LDI R0, 10
+ADD R0, 1 
+INC R0
+OUT R0 
+LDI R2, 20
+OUT R2
+HLT 
+
