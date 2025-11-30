@@ -7,7 +7,11 @@ A mini-cpu example with multiple instructions.
 
 ## Usage 
 
-- ./gab -r <source-path> | gab -c <source-path> -o <bin-path> | gab -e <bin-path>
+- ./gab -r (source-path) | gab -c (source-path) -o (bin-path) | gab -e (bin-path)
+- -r to run from source code 
+- -c to compile from source code 
+- -o to output the binary 
+- -e to exec from a binary path
 
 
 
