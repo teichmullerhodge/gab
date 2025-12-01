@@ -10,7 +10,7 @@ void swap_str(char *src, char *dst, size_t start, size_t up_to){
 
   size_t idx = 0;
   for(size_t k = start; k <= up_to; k++) {
-    if(dst[idx] == '\n'){
+    if(src[idx] == '\n'){
       dst[idx] = '\0';
       return; 
     }
